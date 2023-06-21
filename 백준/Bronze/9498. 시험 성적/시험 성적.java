@@ -14,13 +14,13 @@ public class Main {
 
 		int num = Integer.parseInt(br.readLine());
 
-		if (100 >= num && 90 <= num) {
+		if (90 <= num) {
 			bw.write("A");
-		} else if (89 >= num && 80 <= num) {
+		} else if (80 <= num) {
 			bw.write("B");
-		} else if (79 >= num && 70 <= num) {
+		} else if (70 <= num) {
 			bw.write("C");
-		} else if (69 >= num && 60 <= num) {
+		} else if (60 <= num) {
 			bw.write("D");
 		} else {
 			bw.write("F");
