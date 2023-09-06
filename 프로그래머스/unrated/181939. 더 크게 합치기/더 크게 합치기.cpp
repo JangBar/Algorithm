@@ -22,6 +22,6 @@ int solution(int a, int b) {
     else {
         answer= bi;
     }
-
-    return answer;
+ return answer;
+/* return answer(stoi(to_string(a)+to_string(b)),stoi(to_string(b)+to_string(a))); */
 }
